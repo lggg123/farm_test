@@ -29,5 +29,5 @@ Route::delete('products/{id}', [ProductsController::class, 'delete']);
 Route::get('tools', [ToolsController::class, 'index']);
 Route::get('tools/{id}', [ToolsController::class, 'show']);
 Route::post('tools', [ToolsController::class, 'store']);
-Route::put('toolss', [ToolsController::class, 'update']);
+Route::put('tools', [ToolsController::class, 'update']);
 Route::delete('tools/{id}', [ToolsController::class, 'delete']);
