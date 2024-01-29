@@ -28,6 +28,6 @@ Route::delete('products/{id}', [ProductsController::class, 'delete']);
 
 Route::get('tools', [ToolsController::class, 'index']);
 Route::get('tools/{id}', [ToolsController::class, 'show']);
-Route::post('products', [ToolsController::class, 'store']);
-Route::put('products', [ToolsController::class, 'update']);
-Route::delete('products/{id}', [ToolsController::class, 'delete']);
+Route::post('tools', [ToolsController::class, 'store']);
+Route::put('tools', [ToolsController::class, 'update']);
+Route::delete('tools/{id}', [ToolsController::class, 'delete']);
