@@ -9,7 +9,8 @@
 
 ## Farm Test
 
-This is a farm application where there are endpoints created for Tools and Products.
+This is a farm application where there are endpoints created for Tools and Products. This API is used to manage a farm's inventory and personnel. They produce apples, oranges, peas, and chickens. 
+They also must keep all the tools and supplies necessary for these products.
 
 ## Installation instructions
 
